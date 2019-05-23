@@ -1,14 +1,18 @@
 ﻿using System;
 
-namespace _02._Pounds_to_Dollars
+namespace _03._Exact_Sum_of_Real_Numbers
 {
     class Program
     {
         static void Main(string[] args)
         {
-            double britishPounds = double.Parse(Console.ReadLine());
-            double dollars = 1.31 * britishPounds;
-            Console.WriteLine($"{dollars:F3}");
+            int n = int.Parse(Console.ReadLine());
+            decimal sum = 0M;
+            for (int i = 0; i < n; i++)
+            {
+                sum += decimal.Parse(Console.ReadLine());
+            }
+            Console.WriteLine(sum);
         }
     }
 }
