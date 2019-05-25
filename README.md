@@ -1,1 +1,1 @@
-# SoftUni-Homeworks
+# Homeworks and projects for Software University
